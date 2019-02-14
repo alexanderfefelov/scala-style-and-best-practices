@@ -24,6 +24,12 @@
 
 ## Type Safety
 
+- [Strategic Scala Style: Practical Type Safety](http://www.lihaoyi.com/post/StrategicScalaStylePracticalTypeSafety.html) - Li Haoyi
+
+    > This post explores how you can make use of the type-safety of the Scala programming language to help catch the mistakes you make when writing Scala programs.
+    >
+    > While Scala is has a compiler that can help you catch errors, and many call it "type-safe", there is in fact a whole range of ways you can write Scala that provide greater- or lesser- amounts of safety. We will discuss various techniques that you can use to shift your code to the "safer" side of the spectrum. We'll consciously ignore the theoretical side of things with it's absolute proofs and logic, and focus on the practical side of how to make the Scala compiler catch more of your dumb bugs.
+
 - [Strings are not the type you are looking for](https://pedrorijo.com/blog/strings-as-types/) - Pedro Rijo
 
     > Statically vs dynamically typed languages is one of those eternal wars among developers.
@@ -31,12 +37,6 @@
     > One of the arguments that statically typed programming language developers (like Java, Scala, and Haskell) often use when arguing to defend their choice, is that the type system helps catching many bugs before the code goes into production.
     >
     > I don’t want to discuss if you should use statically or dynamically typed languages, but I would like to show that we don’t always leverage the type system as much as we could on statically typed languages. The common pitfall happens by using the type java.lang.String to encode many different concepts, allowing some easy-to-prevent bugs.
-
-- [Strategic Scala Style: Practical Type Safety](http://www.lihaoyi.com/post/StrategicScalaStylePracticalTypeSafety.html) - Li Haoyi
-
-    > This post explores how you can make use of the type-safety of the Scala programming language to help catch the mistakes you make when writing Scala programs.
-    >
-    > While Scala is has a compiler that can help you catch errors, and many call it "type-safe", there is in fact a whole range of ways you can write Scala that provide greater- or lesser- amounts of safety. We will discuss various techniques that you can use to shift your code to the "safer" side of the spectrum. We'll consciously ignore the theoretical side of things with it's absolute proofs and logic, and focus on the practical side of how to make the Scala compiler catch more of your dumb bugs.
 
 - [To tag a type](https://medium.com/iterators/to-tag-a-type-88dc344bb66c) - Marcin Rzeźnicki
 
