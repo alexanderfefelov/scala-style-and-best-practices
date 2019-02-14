@@ -32,6 +32,12 @@
     >
     > I don’t want to discuss if you should use statically or dynamically typed languages, but I would like to show that we don’t always leverage the type system as much as we could on statically typed languages. The common pitfall happens by using the type java.lang.String to encode many different concepts, allowing some easy-to-prevent bugs.
 
+- [Strategic Scala Style: Practical Type Safety](http://www.lihaoyi.com/post/StrategicScalaStylePracticalTypeSafety.html) - Li Haoyi
+
+    > This post explores how you can make use of the type-safety of the Scala programming language to help catch the mistakes you make when writing Scala programs.
+    >
+    > While Scala is has a compiler that can help you catch errors, and many call it "type-safe", there is in fact a whole range of ways you can write Scala that provide greater- or lesser- amounts of safety. We will discuss various techniques that you can use to shift your code to the "safer" side of the spectrum. We'll consciously ignore the theoretical side of things with it's absolute proofs and logic, and focus on the practical side of how to make the Scala compiler catch more of your dumb bugs.
+
 - [To tag a type](https://medium.com/iterators/to-tag-a-type-88dc344bb66c) - Marcin Rzeźnicki
 
     > A common need in type-safe code is the ability to tell various values apart. This is done to have the high degree of certainty that a value is used in a context where it is supposed to be used. On the most basic level types serve this exact purpose — val x: A and val y: B may be the most obvious example of separating values by labeling them with a type. But once programs start to get bigger, the inevitable thing happens — the types get re-used. This is especially a problem with common types like String or Int. The textbook example of this problem is a database id. Usually, the internal representation of such a value is, in fact, a number or UUID — so at some level it is correct to say case class User(id: Long, …). But the specifics of internal representation quickly stop to adhere to the meaning being attached to the value. Once you have case class User(id: Long, …) co-existing with case class Transaction(id: Long, …), both ids start to become interchangeable, by the principle of having the same type, while clearly they should not be because, logically, id-of-transaction has no meaning as id-of-user and vice-versa. The bigger the domain, the more values share the same representation (after all, almost anything can be thought of as string) but do not share the same meaning.
