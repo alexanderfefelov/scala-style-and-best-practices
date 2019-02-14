@@ -22,6 +22,10 @@
     >
     > Comments, suggestions, … are welcome! I’m clearly not the best Scala developer out there and might have gotten things wrong, or right for the wrong reasons. If you see areas that could be improved on, feel free to open an issue!
 
+- [Strategic Scala Style: Principle of Least Power](http://www.lihaoyi.com/post/StrategicScalaStylePrincipleofLeastPower.html) - Li Haoyi
+
+    > The Scala language is large and complex, and it provides a variety of tools that a developer can use to do the same thing in a variety of ways. Given the range of possible solutions to every problem, how can a developer choose which one should be used? This is the first in a series of blog posts aiming to provide style guidelines at a "strategic" level. Above the level of "how much whitespace should I use" or camelCase vs PascalCase, it should help a developer working with the Scala language choose from the buffet of possible solutions.
+
 ## Type Safety
 
 - [Strategic Scala Style: Practical Type Safety](http://www.lihaoyi.com/post/StrategicScalaStylePracticalTypeSafety.html) - Li Haoyi
